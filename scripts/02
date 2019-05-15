@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Enter username : "
+read VAR
+pkill -u $VAR
+userdel -r $VAR

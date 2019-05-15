@@ -1,0 +1,18 @@
+avahi-daemon
+console-setup.sh
+cron
+cups
+cups-browsed
+dbus
+hwclock.sh
+keyboard-setup.sh
+kmod
+networking
+procps
+rsyslog
+saned
+ssh
+udev
+x11-common
+
+Indiquez le nom donne a ce type de service : daemons

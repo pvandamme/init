@@ -1,0 +1,15 @@
+#!/bin/bash
+
+apt-get update && apt-get install vim
+touch ~/.vimrc
+echo "
+set number
+set relativenumber
+
+filetype plugin indent on
+set tabstop=4
+set shiftwidth=4
+
+iabbrev mainc int   main(int ac, char **av)<cr>{<cr>}<esc>ko
+" >> ~/.vimrc
+echo ".vimrc updated"
